@@ -24,9 +24,9 @@
         }
     },
     "variables": {
-        "imagePublisher": "cisco",
+        "imagePublisher": "ciscochina",
         "imageOffer": "cisco-csr-1000v",
-        "imageSKU": "16_6",
+        "imageSKU": "16_9",
         "storageAccountName": "[concat('vhds', uniqueString(resourceGroup().id))]",
         "publicIPAddressName": "csr1-PIP",
         "dnsPrefix": "[concat('csr-', uniqueString(resourceGroup().id))]",
@@ -179,7 +179,7 @@
             "location": "[resourceGroup().location]",
             "plan": {
                 "name": "csr-azure-byol",
-                "publisher": "cisco",
+                "publisher": "ciscochina",
                 "product": "cisco-csr-1000v"
             },
             "dependsOn": [

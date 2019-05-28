@@ -162,8 +162,8 @@
             "name": "csr",
             "location": "[resourceGroup().location]",
             "plan": {
-                "name": "16_6",
-                "publisher": "cisco",
+                "name": "16_9",
+                "publisher": "ciscochina",
                 "product": "cisco-csr-1000v"
             },
             "dependsOn": [
@@ -182,9 +182,9 @@
                 },
                 "storageProfile": {
                     "imageReference": {
-                        "publisher": "cisco",
+                        "publisher": "ciscochina",
                         "offer": "cisco-csr-1000v",
-                        "sku": "16_6",
+                        "sku": "16_9",
                         "version": "latest"
                     },
                     "osDisk": {
